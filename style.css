@@ -1,0 +1,163 @@
+/* NavBar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior:smooth;
+}
+
+.logo{
+    height: auto;
+    width: 50%;
+    cursor: pointer;
+    position: relative;
+    top: 1rem;
+    /* margin: 20px 0; */
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2.5rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.main-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.bg-color{
+    background-color: black;
+}
+
+.bg-main{
+   height: 80vh;
+   position: relative; 
+}
+.btn-1{
+    background-color: yellow;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px 100px;
+}
+
+
+.custom-shape-divider-bottom-1703586769 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1703586769 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 63px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1703586769 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.common-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important;
+    margin-top: 1rem;
+}
+.common-title{
+    margin-bottom: 4.2rem;
+}
+#about-section{
+    padding-bottom: 2rem;
+}
+#project-Section{
+    padding-bottom: 2rem;
+}
+
+#contact-section{
+    padding-bottom: 2rem;
+}
+.box-1{
+    transition-duration: 500ms;
+}
+.box-1:hover{
+    transform: scale(1.05,1.05);
+}
+.nav-left h2{
+    font-size: 2rem;
+    transition-duration: 600ms;
+    text-shadow: 1px 0.7px 5px white;
+}
+.nav-left h2:hover{
+    transform: scale(1.05,1.05);
+    text-shadow: 1px 5px 5px white;
+    color: rgb(255, 69, 69);
+}
+.btns-1{
+    background-color: red;
+    transition: width 600ms;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+.btns-1:hover{
+    transform: scale(1.05,1.05);
+    width: 70px;
+    box-shadow: 2px 5px 10px black;
+}
+.p-img{
+    border: 1px solid black;
+    box-shadow: 2px 4px 8px black;
+    transition-duration: 500ms;
+}
+.p-img:hover{
+    transform: scale(1.05,1.02);
+}
+.rs-child{
+    font-size: 2rem;
+}
+
+/* @media (max-width:991px) {
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
